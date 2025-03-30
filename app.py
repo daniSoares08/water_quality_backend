@@ -1,6 +1,5 @@
 from flask import Flask
 from flask_cors import CORS
-from flask import Flask, request, jsonify, make_response
 from api.sensor_api import sensor_bp
 from api.ph_api import ph_bp
 from api.temperatura_api import temperatura_bp
